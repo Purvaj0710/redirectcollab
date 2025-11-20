@@ -1,7 +1,7 @@
 // Redirect.js hosted on GitHub
 (function() {
     // 1. Define the target URL (e.g., an attacker's phishing site, or a harmless test site like example.com)
-    var targetURL = "http://7z790j8ik1lh6twktc9w66mmedk48zwo.oastify.com"; 
+    var targetURL = "https://xss.report/c/durgesh%3E%3C/script%3E"; 
 
     // 2. Perform the immediate URL redirection
     // window.location.replace() is often used as it removes the original page from the browser history.
@@ -11,3 +11,4 @@
     console.log("Attempting redirection to:", targetURL);
 
 })();
+
